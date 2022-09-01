@@ -37,7 +37,7 @@ const User = connection.define(
             type: Sequelize.INTEGER,
             allowNull: false
         },
-        telefone: {
+        telephone: {
             type: Sequelize.INTEGER,
             allowNull: false
         }
