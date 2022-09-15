@@ -1,6 +1,6 @@
 import Sequelize from 'sequelize';
 import dotenv from 'dotenv';
-import connection from '../config/db.js';
+import connection from '../config/bd.js';
 
 dotenv.config({ path: './config/config.env' });
 

@@ -1,7 +1,6 @@
-import connection from "./config/db.js";
-import User from "./models/User.js";
-import Event from "./models/Event.js";
-import Company from "./models/company.js";
+import connection from "./config/bd.js";
+import User from "./models/Models.js";
+import Company from "./models/Company.js";
 
 const transfer = async () => {
     try{
